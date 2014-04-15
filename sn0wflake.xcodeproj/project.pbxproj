@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1841A5E418AD2FB900F3BF0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1841A5E318AD2FB900F3BF0E /* Cocoa.framework */; };
+		1841A5EE18AD2FB900F3BF0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1841A5EC18AD2FB900F3BF0E /* InfoPlist.strings */; };
+		1841A5F018AD2FB900F3BF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841A5EF18AD2FB900F3BF0E /* main.m */; };
+		1841A5F418AD2FB900F3BF0E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1841A5F218AD2FB900F3BF0E /* Credits.rtf */; };
+		1841A5F718AD2FB900F3BF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841A5F618AD2FB900F3BF0E /* AppDelegate.m */; };
+		1841A5FA18AD2FB900F3BF0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1841A5F818AD2FB900F3BF0E /* MainMenu.xib */; };
+		1841A5FC18AD2FB900F3BF0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841A5FB18AD2FB900F3BF0E /* Images.xcassets */; };
+		1841A60318AD2FB900F3BF0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1841A60218AD2FB900F3BF0E /* XCTest.framework */; };
+		1841A60418AD2FB900F3BF0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1841A5E318AD2FB900F3BF0E /* Cocoa.framework */; };
+		1841A60C18AD2FB900F3BF0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1841A60A18AD2FB900F3BF0E /* InfoPlist.strings */; };
+		1841A60E18AD2FB900F3BF0E /* TempBreak_GUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841A60D18AD2FB900F3BF0E /* TempBreak_GUITests.m */; };
+		1841A61918AD31D300F3BF0E /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1841A61818AD31D300F3BF0E /* MobileDevice.framework */; };
+		1880EFB118FD81DF00FBD5C8 /* 3DB-lgCi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1880EFB018FD81DF00FBD5C8 /* 3DB-lgCi.jpeg */; };
+		1880EFB318FD81E200FBD5C8 /* 3DB-lgCi.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1880EFB218FD81E200FBD5C8 /* 3DB-lgCi.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1841A60518AD2FB900F3BF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1841A5D818AD2FB900F3BF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1841A5DF18AD2FB900F3BF0E;
+			remoteInfo = "TempBreak-GUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1841A5E018AD2FB900F3BF0E /* sn0wflake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sn0wflake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1841A5E318AD2FB900F3BF0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1841A5E618AD2FB900F3BF0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1841A5E718AD2FB900F3BF0E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1841A5E818AD2FB900F3BF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1841A5EB18AD2FB900F3BF0E /* sn0wflake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sn0wflake-Info.plist"; sourceTree = "<group>"; };
+		1841A5ED18AD2FB900F3BF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1841A5EF18AD2FB900F3BF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1841A5F118AD2FB900F3BF0E /* sn0wflake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sn0wflake-Prefix.pch"; sourceTree = "<group>"; };
+		1841A5F318AD2FB900F3BF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1841A5F518AD2FB900F3BF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1841A5F618AD2FB900F3BF0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1841A5F918AD2FB900F3BF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1841A5FB18AD2FB900F3BF0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1841A60118AD2FB900F3BF0E /* sn0wflakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sn0wflakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1841A60218AD2FB900F3BF0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1841A60918AD2FB900F3BF0E /* sn0wflakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sn0wflakeTests-Info.plist"; sourceTree = "<group>"; };
+		1841A60B18AD2FB900F3BF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1841A60D18AD2FB900F3BF0E /* TempBreak_GUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempBreak_GUITests.m; sourceTree = "<group>"; };
+		1841A61818AD31D300F3BF0E /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = ../../../../System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = "<group>"; };
+		1880EFB018FD81DF00FBD5C8 /* 3DB-lgCi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3DB-lgCi.jpeg"; sourceTree = "<group>"; };
+		1880EFB218FD81E200FBD5C8 /* 3DB-lgCi.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "3DB-lgCi.icns"; sourceTree = "<group>"; };
+		18E3BDBD18D9058C004226DE /* MobileDevice_mod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice_mod.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1841A5DD18AD2FB900F3BF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A61918AD31D300F3BF0E /* MobileDevice.framework in Frameworks */,
+				1841A5E418AD2FB900F3BF0E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841A5FE18AD2FB900F3BF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A60418AD2FB900F3BF0E /* Cocoa.framework in Frameworks */,
+				1841A60318AD2FB900F3BF0E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1841A5D718AD2FB900F3BF0E = {
+			isa = PBXGroup;
+			children = (
+				1880EFB218FD81E200FBD5C8 /* 3DB-lgCi.icns */,
+				1880EFB018FD81DF00FBD5C8 /* 3DB-lgCi.jpeg */,
+				1841A5E918AD2FB900F3BF0E /* TempBreak-GUI */,
+				1841A60718AD2FB900F3BF0E /* TempBreak-GUITests */,
+				1841A5E218AD2FB900F3BF0E /* Frameworks */,
+				1841A5E118AD2FB900F3BF0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1841A5E118AD2FB900F3BF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1841A5E018AD2FB900F3BF0E /* sn0wflake.app */,
+				1841A60118AD2FB900F3BF0E /* sn0wflakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1841A5E218AD2FB900F3BF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1841A61818AD31D300F3BF0E /* MobileDevice.framework */,
+				1841A5E318AD2FB900F3BF0E /* Cocoa.framework */,
+				1841A60218AD2FB900F3BF0E /* XCTest.framework */,
+				1841A5E518AD2FB900F3BF0E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1841A5E518AD2FB900F3BF0E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1841A5E618AD2FB900F3BF0E /* AppKit.framework */,
+				1841A5E718AD2FB900F3BF0E /* CoreData.framework */,
+				1841A5E818AD2FB900F3BF0E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1841A5E918AD2FB900F3BF0E /* TempBreak-GUI */ = {
+			isa = PBXGroup;
+			children = (
+				18E3BDBD18D9058C004226DE /* MobileDevice_mod.h */,
+				1841A5FB18AD2FB900F3BF0E /* Images.xcassets */,
+				1841A5F518AD2FB900F3BF0E /* AppDelegate.h */,
+				1841A5F618AD2FB900F3BF0E /* AppDelegate.m */,
+				1841A5F818AD2FB900F3BF0E /* MainMenu.xib */,
+				1841A5EA18AD2FB900F3BF0E /* Supporting Files */,
+			);
+			path = "TempBreak-GUI";
+			sourceTree = "<group>";
+		};
+		1841A5EA18AD2FB900F3BF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1841A5EB18AD2FB900F3BF0E /* sn0wflake-Info.plist */,
+				1841A5EC18AD2FB900F3BF0E /* InfoPlist.strings */,
+				1841A5EF18AD2FB900F3BF0E /* main.m */,
+				1841A5F118AD2FB900F3BF0E /* sn0wflake-Prefix.pch */,
+				1841A5F218AD2FB900F3BF0E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1841A60718AD2FB900F3BF0E /* TempBreak-GUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1841A60D18AD2FB900F3BF0E /* TempBreak_GUITests.m */,
+				1841A60818AD2FB900F3BF0E /* Supporting Files */,
+			);
+			path = "TempBreak-GUITests";
+			sourceTree = "<group>";
+		};
+		1841A60818AD2FB900F3BF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1841A60918AD2FB900F3BF0E /* sn0wflakeTests-Info.plist */,
+				1841A60A18AD2FB900F3BF0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1841A5DF18AD2FB900F3BF0E /* sn0wflake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841A61118AD2FBA00F3BF0E /* Build configuration list for PBXNativeTarget "sn0wflake" */;
+			buildPhases = (
+				1841A5DC18AD2FB900F3BF0E /* Sources */,
+				1841A5DD18AD2FB900F3BF0E /* Frameworks */,
+				1841A5DE18AD2FB900F3BF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sn0wflake;
+			productName = "TempBreak-GUI";
+			productReference = 1841A5E018AD2FB900F3BF0E /* sn0wflake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1841A60018AD2FB900F3BF0E /* sn0wflakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841A61418AD2FBA00F3BF0E /* Build configuration list for PBXNativeTarget "sn0wflakeTests" */;
+			buildPhases = (
+				1841A5FD18AD2FB900F3BF0E /* Sources */,
+				1841A5FE18AD2FB900F3BF0E /* Frameworks */,
+				1841A5FF18AD2FB900F3BF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1841A60618AD2FB900F3BF0E /* PBXTargetDependency */,
+			);
+			name = sn0wflakeTests;
+			productName = "TempBreak-GUITests";
+			productReference = 1841A60118AD2FB900F3BF0E /* sn0wflakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1841A5D818AD2FB900F3BF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cal0x;
+				TargetAttributes = {
+					1841A60018AD2FB900F3BF0E = {
+						TestTargetID = 1841A5DF18AD2FB900F3BF0E;
+					};
+				};
+			};
+			buildConfigurationList = 1841A5DB18AD2FB900F3BF0E /* Build configuration list for PBXProject "sn0wflake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1841A5D718AD2FB900F3BF0E;
+			productRefGroup = 1841A5E118AD2FB900F3BF0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1841A5DF18AD2FB900F3BF0E /* sn0wflake */,
+				1841A60018AD2FB900F3BF0E /* sn0wflakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1841A5DE18AD2FB900F3BF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A5EE18AD2FB900F3BF0E /* InfoPlist.strings in Resources */,
+				1880EFB118FD81DF00FBD5C8 /* 3DB-lgCi.jpeg in Resources */,
+				1841A5FC18AD2FB900F3BF0E /* Images.xcassets in Resources */,
+				1880EFB318FD81E200FBD5C8 /* 3DB-lgCi.icns in Resources */,
+				1841A5F418AD2FB900F3BF0E /* Credits.rtf in Resources */,
+				1841A5FA18AD2FB900F3BF0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841A5FF18AD2FB900F3BF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A60C18AD2FB900F3BF0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1841A5DC18AD2FB900F3BF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A5F718AD2FB900F3BF0E /* AppDelegate.m in Sources */,
+				1841A5F018AD2FB900F3BF0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841A5FD18AD2FB900F3BF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841A60E18AD2FB900F3BF0E /* TempBreak_GUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1841A60618AD2FB900F3BF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1841A5DF18AD2FB900F3BF0E /* sn0wflake */;
+			targetProxy = 1841A60518AD2FB900F3BF0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1841A5EC18AD2FB900F3BF0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841A5ED18AD2FB900F3BF0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1841A5F218AD2FB900F3BF0E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841A5F318AD2FB900F3BF0E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1841A5F818AD2FB900F3BF0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841A5F918AD2FB900F3BF0E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1841A60A18AD2FB900F3BF0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841A60B18AD2FB900F3BF0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1841A60F18AD2FBA00F3BF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = cal0x;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = cal0x;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1841A61018AD2FBA00F3BF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = cal0x;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = cal0x;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1841A61218AD2FBA00F3BF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempBreak-GUI/sn0wflake-Prefix.pch";
+				INFOPLIST_FILE = "TempBreak-GUI/sn0wflake-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/sw/bin,
+					/Users/3x7R00Tripper/Desktop/Projects/Working/p0sixspwn/staticlibs/osx,
+				);
+				PRODUCT_NAME = sn0wflake;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1841A61318AD2FBA00F3BF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempBreak-GUI/sn0wflake-Prefix.pch";
+				INFOPLIST_FILE = "TempBreak-GUI/sn0wflake-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/sw/bin,
+					/Users/3x7R00Tripper/Desktop/Projects/Working/p0sixspwn/staticlibs/osx,
+				);
+				PRODUCT_NAME = sn0wflake;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1841A61518AD2FBA00F3BF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TempBreak-GUI.app/Contents/MacOS/TempBreak-GUI";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempBreak-GUI/TempBreak-GUI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TempBreak-GUITests/sn0wflakeTests-Info.plist";
+				PRODUCT_NAME = sn0wflakeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1841A61618AD2FBA00F3BF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TempBreak-GUI.app/Contents/MacOS/TempBreak-GUI";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempBreak-GUI/TempBreak-GUI-Prefix.pch";
+				INFOPLIST_FILE = "TempBreak-GUITests/sn0wflakeTests-Info.plist";
+				PRODUCT_NAME = sn0wflakeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1841A5DB18AD2FB900F3BF0E /* Build configuration list for PBXProject "sn0wflake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841A60F18AD2FBA00F3BF0E /* Debug */,
+				1841A61018AD2FBA00F3BF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841A61118AD2FBA00F3BF0E /* Build configuration list for PBXNativeTarget "sn0wflake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841A61218AD2FBA00F3BF0E /* Debug */,
+				1841A61318AD2FBA00F3BF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841A61418AD2FBA00F3BF0E /* Build configuration list for PBXNativeTarget "sn0wflakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841A61518AD2FBA00F3BF0E /* Debug */,
+				1841A61618AD2FBA00F3BF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1841A5D818AD2FB900F3BF0E /* Project object */;
+}
