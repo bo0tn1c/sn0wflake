@@ -1,12 +1,5 @@
-<pre>
-            ___            __ _       _        
- ___ _ __  / _ \__      __/ _| | __ _| | _____ 
-/ __| '_ \| | | \ \ /\ / / |_| |/ _` | |/ / _ \
-\__ \ | | | |_| |\ V  V /|  _| | (_| |   <  __/
-|___/_| |_|\___/  \_/\_/ |_| |_|\__,_|_|\_\___|
-                                               
-</pre>
-
+<h1> sn0wflake </h1>
+                                          
 A alternative of fo0recast, but more device information and no unlock + jailbreak check.
 <hr>
 Don't be confused because the TempBreak folders.<br>
